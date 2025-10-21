@@ -1,70 +1,73 @@
-# React.js and Tailwind CSS Assignment
+Health Tracker App
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+// Project Overview
+This project was developed for Week 3: React.js, JSX, and Tailwind CSS – 
+It demonstrates component architecture, state management, hooks usage, and API integration with clean and reusable code.
 
-## Assignment Overview
+  // Features
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+Add, delete, and filter tasks (All / Active / Completed)
+Persistent state using useLocalStorage custom hook
+Theme switcher (Light / Dark Mode)
+Reusable components – Button, Card, Navbar, Footer, Layout
+Public API Integration – Fetches and displays data from JSONPlaceholder
+Responsive design – works perfectly on mobile, tablet, and desktop
 
-## Getting Started
+// Tech Stack
+React.js (Vite) 
+Tailwind CSS 
+React Router
+Custom Hook: useLocalStorage
+Public API: JSONPlaceholder
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
-
-## Files Included
-
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
-
-## Requirements
-
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
-
-## Project Structure
-
-```
+// Folder Structure
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+- components/
+  -  AddTaskForm.jsx
+  - Button.jsx
+  - Footer.jsx
+  - Navbar.jsx
+  - HealthData.jsx
+  - TaskList.jsx
+ - hooks/
+   - useLocalStorage.js
+ - pages/
+   -  Home.jsx
+ - App.jsx
+ - main.jsx
+ - index.css
 
-## Submission
+// Installation & Setup
+1 Clone the repository
+git clone <https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-paulinashikongo>
+cd task-manager-app
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+2 Install dependencies
+npm install
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+3 Run the development server
+npm run dev
 
-## Resources
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+Open your browser and visit:
+👉 http://localhost:5173/
+
+////  Deployment
+
+Github:  [https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-paulinashikongo]
+
+Screenshots
+Light Mode	Dark Mode
+
+/// Author
+
+Paulina Mweshitya Shikongo
+paulinashikongo77.ps@gmail.com
+Built for the PLP MERN Stack Week 3 Assignment
+
+Learning Outcomes
+Understood and applied React component architecture
+Implemented state management and custom hooks
+Used Tailwind CSS for modern, responsive styling
+Integrated data from a public API
+Built and deployed a fully functional front-end app
